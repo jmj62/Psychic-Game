@@ -71,7 +71,7 @@ document.onkeyup = function()
     		//values.
         		console.log("full array " + strUserChoices.join(","));
         		var myInput = (strUserChoices.join(","));
-        		document.getElementById("myInput").innerHTML = myInput;
+        		document.getElementById("strUserChoices").innerHTML = myInput;
         }
 
 	    //if user unable to guess after 9 nTries - increase loss and restart game
